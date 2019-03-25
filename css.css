@@ -1,0 +1,338 @@
+* {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color:#000
+}
+
+
+.contenedor {
+    width: 968px;
+    margin: 0 auto;
+}
+
+
+
+
+div#imagen {
+    width: 968px;
+    background-image: url("imagen.jpg");
+    height: 345px;
+    background-size: cover;
+    background-position: 100% 50%;
+    position:relative;
+    z-index: -1;
+}
+
+.log {
+    width: 110px;
+    height: 110px;
+    position: absolute; left: -50px;
+}
+
+.home {
+    display:inline-block;
+    width: 14%;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(227,220,227,1);
+}
+
+.home1 {
+    display:inline-block;
+    width: 14%;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(227,220,227,1);
+    background-color: rgba(144, 146, 146, 0.233);
+}
+
+
+.home:hover {
+    background-color: rgba(144, 146, 146, 0.233);
+}
+
+.about {
+    display:inline-block;
+    width: 14%;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(227,220,227,1);
+}
+
+.about1 {
+    display:inline-block;
+    width: 14%;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(227,220,227,1);
+    background-color: rgba(144, 146, 146, 0.233);
+}
+
+.about:hover {
+    background-color: rgba(144, 146, 146, 0.233)
+}
+
+.contact {
+    display:inline-block;
+    width: 14%;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(227,220,227,1);
+}
+
+.contact1 {
+    display:inline-block;
+    width: 14%;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(227,220,227,1);
+    background-color: rgba(144, 146, 146, 0.233);
+}
+
+.contact:hover {
+    background-color: rgba(144, 146, 146, 0.233)
+}
+
+
+.gameinf {
+    display:inline-block;
+    width: 14%;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(227,220,227,1);
+}
+
+.gameinf1 {
+    display:inline-block;
+    width: 14%;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(227,220,227,1);
+    background-color: rgba(144, 146, 146, 0.233);
+}
+
+.gameinf:hover {
+    background-color: rgba(144, 146, 146, 0.233)
+}
+
+
+.rules {
+    display:inline-block;
+    width: 14%;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(227,220,227,1);
+}
+
+.rules1 {
+    display:inline-block;
+    width: 14%;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(227,220,227,1);
+    background-color: rgba(144, 146, 146, 0.233);
+}
+
+.rules:hover {
+    background-color: rgba(144, 146, 146, 0.233)
+}
+
+.registrationform{
+    display:inline-block;
+    width: 14%;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(227,220,227,1);
+}
+
+.registrationform1{
+    display:inline-block;
+    width: 14%;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(227,220,227,1);
+    background-color: rgba(144, 146, 146, 0.233);
+}
+
+.registrationform:hover {
+    background-color: rgba(144, 146, 146, 0.233)
+}
+
+.upcoming {
+   text-indent: 30px;
+}
+
+.events {
+    position: absolute; left:900px;
+    margin-top: 10px;
+    background-color:   #f6f6f6;
+    padding: 10px;
+    border-radius: 20px 20px 20px 20px;
+    display: inline-block;
+}
+
+.subtitle {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.happen {
+    text-indent: 13px;
+}
+
+.calendar {
+    width: 200px;
+    height: 200px;
+    position: absolute; left: 567px; 
+}
+
+
+
+.fundamentos {
+    position: absolute; left:700px; top:380px;
+    margin-top: 70px;
+    background-color:   #f6f6f6;
+    padding: 10px;
+    border-radius: 20px 20px 20px 20px;
+    display: inline-block;
+    width: 36%;
+}
+
+.def {
+    position: relative; left:20px;
+}
+
+.aboutusicon {
+    width: 200px;
+    height: 200px;
+    position: absolute; left: 480px; 
+}
+
+.mail {
+    position: absolute; left:900px; top: 450px;
+    margin-top: 70px;
+    background-color:   #f6f6f6;
+    padding: 10px;
+    border-radius: 20px 20px 20px 20px;
+    display: inline-block;
+}
+
+.tabla {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-color:   #f6f6f6;
+    }
+
+.tablacont
+{
+    width: 100%;
+    height:100%;
+}
+
+table {
+    border-collapse: collapse;
+    padding: 50px;
+    
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+    
+  }
+
+  th {
+      font-size: 19px;
+    text-align: left;
+    width: 20%;
+  }
+
+  .firstrow {
+      background-color: #000;
+      color: white;
+      text-align: center;
+  }
+
+  .contactz {
+      text-align: center;
+  }
+
+  td:hover {
+    background-color: rgba(144, 146, 146, 0.233)
+  }
+
+  h2 {
+      background-color: #000;
+      color: white;
+      padding: 3px;
+      text-align: center;
+      font-size: 21px;
+  }
+
+  .input {
+      text-align: center;
+  }
+
+  .formz {
+      align-content: center;
+      margin: 15px;
+      width: 100%;
+      height: 100%;
+      padding: 20px;
+  }
+
+  .question {
+      font-weight: bold;
+      margin: 5px;
+  }
+    .gender {
+        margin: 5px;
+}
+
+    
+  form {
+      width: 90%;
+      
+  }
+
+  .regtable {
+      align-content: center;
+      margin-left: 165px;
+  }
+
+  .regtitle {
+      text-align: center;
+      background-color: #000;
+      color: white;
+  }
+
+  input[type=text]:focus {
+    border: 3px solid #555;
+  }
+
+  .goodbye {
+    padding: 3px;
+    text-align: center;
+    font-size: 22px;
+  }
+
+button {
+    display: inline-block;
+    float: right;
+    font-size: 20px;
+    width: 30%;
+    background-color: #000;
+    color: white;
+}
+
+td {
+    text-align: center;
+}
+
+iframe {
+    width: 965px;
+    height: 345px;
+}
+
