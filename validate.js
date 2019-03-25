@@ -85,10 +85,16 @@ if (f.value == "")
  {
   alert("Email adress must be filled out");
   return false;
-}
+} 
 
 if ( myDate > today ) { 
   alert("You cannot be in the future, please type the current date");
+  return false;
+}
+
+else if ( myDate < today) {
+
+  alert("You cannot be in the past, please type the current date");
   return false;
 }
 
